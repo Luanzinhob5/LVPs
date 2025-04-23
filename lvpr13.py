@@ -25,7 +25,7 @@ def main():
     print(f"{maior:.2f}")
     print(f"{menor:.2f}")
     print(f"{alturaf/mulheres:.2f}")
-    print(f"{qtde_homens:.2f}")
+    print(f"{qtde_homens:.0f}")
         
     
 
