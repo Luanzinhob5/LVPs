@@ -7,7 +7,6 @@ def main():
 
     #Entrada de dado
     while stop:
-        
         if a == 5:
             stop = False
         else:

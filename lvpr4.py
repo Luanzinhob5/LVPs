@@ -8,7 +8,6 @@ def main():
     #Entrada de dado
     while stop:
         continuar = input()
-        
         if continuar == "n":
             stop = False
         else:
