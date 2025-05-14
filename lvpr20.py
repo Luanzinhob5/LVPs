@@ -7,7 +7,7 @@ def main():
     ausentes = int(0)
     presentes = int(0)
     a = int(-1)
-    b = int(0)
+    b = float(1)
     maior_ausencia = int(0)
     menor_ausencia = int(100)
     turma_mais_ausente = str()
@@ -22,7 +22,7 @@ def main():
         else:
             turma = str(input())
             turma_qtde = int(input())
-            
+            b += 1
             a = 0
             ausentes = 0
             presentes = 0

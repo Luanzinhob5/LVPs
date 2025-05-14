@@ -1,0 +1,15 @@
+def main():
+    #Declarar variaveis
+    numero = int(0)
+    total = int(0)
+    x = int(0)
+    #Entrada de dados
+
+    #Processos
+    for n in range(5):
+        numero = int(input())
+        total += numero
+        x += 1
+    print(f"{total/x:.0f}")
+if __name__ == '__main__':
+    main()
