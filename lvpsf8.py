@@ -1,14 +1,13 @@
 def main():
     #Declarar variaveis
-    o = 0
+    palavra_final = ''
 
     for palavra in range(10):
-        entrada = input()
-        for letra in entrada.upper():
-            if letra == "O":
-                o += 1
-    print(f"Soma das letras O: {o}")
-   
+        primeira_palavra = input()
+        segunda_palavra = input()
+        palavra_final = primeira_palavra[:3] + segunda_palavra[-3:]
+        print(palavra_final)
+
 
 if __name__ == '__main__':
     main()
